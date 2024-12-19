@@ -14,9 +14,15 @@ importers:
       '@0xsequence/design-system':
         specifier: ^1.8.1
         version: 1.8.1(@types/react-dom@18.3.5(@types/react@18.3.17))(@types/react@18.3.17)(framer-motion@11.15.0(@emotion/is-prop-valid@0.8.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@0xsequence/ethauth':
+        specifier: ^1.0.0
+        version: 1.0.0(ethers@6.13.0(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/kit':
         specifier: ^4.5.3
         version: 4.5.3(0xsequence@2.2.3(ethers@6.13.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)))(@react-oauth/google@0.12.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tanstack/react-query@5.62.8(react@18.3.1))(@types/react-dom@18.3.5(@types/react@18.3.17))(@types/react@18.3.17)(ethers@6.13.0(bufferutil@4.0.8)(utf-8-validate@5.0.10))(react-apple-signin-auth@1.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(viem@2.21.55(bufferutil@4.0.8)(typescript@5.6.3)(utf-8-validate@5.0.10))(wagmi@2.14.3(@tanstack/query-core@5.62.8)(@tanstack/react-query@5.62.8(react@18.3.1))(@types/react@18.3.17)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)(viem@2.21.55(bufferutil@4.0.8)(typescript@5.6.3)(utf-8-validate@5.0.10)))
+      '@0xsequence/network':
+        specifier: ^2.2.3
+        version: 2.2.3(ethers@6.13.0(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/waas':
         specifier: ^2.2.3
         version: 2.2.3(ethers@6.13.0(bufferutil@4.0.8)(utf-8-validate@5.0.10))
