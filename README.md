@@ -1,50 +1,48 @@
-# React + TypeScript + Vite
+# Test Sequence SDK React TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Test Sequence SDK React TypeScript project! This project is designed to help you get started with using the Sequence SDK in a React application with TypeScript.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Test Sequence SDK React TypeScript](#test-sequence-sdk-react-typescript)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
 
-## Expanding the ESLint configuration
+## Introduction
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The Test Sequence SDK React TypeScript project provides a boilerplate for integrating the Sequence SDK into a React application using TypeScript. This project aims to simplify the process of setting up and using the SDK, allowing you to focus on building your application.
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- Easy integration with Sequence SDK
+- Written in TypeScript for type safety
+- Pre-configured with React
+- Sample components and hooks for quick start
+
+## Installation
+
+To get started, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/yourusername/test-sequence-sdk-reactts.git
+cd test-sequence-sdk-reactts
+pnpm install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Usage
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+After installing the dependencies, you can start the development server:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+pnpm dev
 ```
+
+This will run the application in development mode. Open your localhost to view it in the browser.
+
+## Contributing
+
+We welcome contributions to the Test Sequence SDK React TypeScript project! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
